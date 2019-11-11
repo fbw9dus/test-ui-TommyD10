@@ -1,0 +1,81 @@
+@font-face {
+  font-family: GothamFont;
+  src: url(./../fonts/Gotham-Rounded/GothamRoundedBold_21016.ttf);
+}
+
+body .navbar .madhouse {
+  color: #794681;
+  font-weight: bold;
+}
+
+body .navbar .offer {
+  color: #794681;
+  font-size: 1rem;
+}
+
+body .background-lila {
+  height: 100%;
+  background-image: url(/test-ui-TommyD10/images/bg.jpg);
+  background-size: cover;
+}
+
+body .new-font {
+  font-family: Gothamfont;
+  color: whitesmoke;
+  text-align: left;
+}
+
+body .button-color {
+  background-color: #794681;
+  font-weight: bold;
+}
+
+body .button-color:hover {
+  background-color: #f3db57;
+  color: #794681;
+  border-color: #794681;
+}
+
+body p {
+  font-size: 2rem;
+}
+
+@media (max-width: 575px) {
+  .madhouse {
+    display: none;
+  }
+  .logo-media {
+    left: 176px;
+    position: absolute;
+    bottom: -25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 600px) {
+  .madhouse {
+    display: none;
+  }
+  .logo-media {
+    left: 188px;
+    position: absolute;
+    bottom: -25px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .madhouse {
+    display: none;
+  }
+  .logo-media {
+    left: 250px;
+    position: absolute;
+    bottom: -25px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .madhouse {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
