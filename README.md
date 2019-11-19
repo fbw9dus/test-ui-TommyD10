@@ -19,7 +19,7 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   55/60 Punkten
 #### Punktabzüge für:
 - [_] (10) Elemente passen sich nicht an Fensterbreite an
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
@@ -27,6 +27,9 @@ Projekt für Test im UI Modul
 - [_] (5) Kinder-Tags im Code nicht eingerückt
 - [_] (10) Zweckfremde Tags verwendet
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
-- [_] (5) Falsche Datei-Pfade
+- [x] (5) Falsche Datei-Pfade
+```diff
+- Der Bild-Pfad im SCSS beginnt mit dem Projekt-Ordner, das ist unnötig und riskant, da der Ordner umbenannt werden könnte und der Pfad dann falsch wäre
+```
 - [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
 - [_] (5) Fehlende essentielle Tag-Attribute
